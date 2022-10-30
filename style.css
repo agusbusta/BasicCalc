@@ -51,6 +51,7 @@ button{
     margin: 10px;
     font-weight: bold;
     font-size: 20px;
+    color: rgb(92, 92, 92);
 }
 
 .equal{
@@ -64,8 +65,8 @@ button{
 }
 
 .equal:active{
-    box-shadow: inset -6px -6px 13px #fff,
-                inset 6px 6px 13px rgba(0,0,0,.16);
+    box-shadow:inset -6px -6px 13px #fff,
+            inset 6px 6px 13px rgba(0,0,0,.16);
     background-color: #ecf0f3;
     border: none;
     border-radius: 32px;
@@ -79,6 +80,7 @@ button:active{
 .footer{
   text-align: center;
 }
+
 .footer p {
     display: flex;
     justify-content: center;
@@ -91,5 +93,4 @@ footer a {
     padding: 10px;
     text-decoration: none;
     color: black;
-  
 }
