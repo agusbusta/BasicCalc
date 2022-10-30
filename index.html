@@ -3,13 +3,40 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://kit.fontawesome.com/41b5c639e3.js" crossorigin="anonymous"></script>
+	<title>Basic Calc.</title>
 </head>
 <body>
 	<div class="container">
 		<div class="calc">
-			<input type="text" class="input" placeholder="0">
+			<input type="text" id="inputext" placeholder="0">
+			<button onclick="clr()">C</button>
+			<button onclick="del()">DEL</button>
+			<button onclick="perc()">%</button>
+			<button onclick="calculate('/')">/</button>
+			<button onclick="calculate(7)">7</button>
+			<button onclick="calculate(8)">8</button>
+			<button onclick="calculate(9)">9</button>
+			<button onclick="calculate('*')">X</button>
+			<button onclick="calculate(4)">4</button>
+			<button onclick="calculate(5)">5</button>
+			<button onclick="calculate(6)">6</button>
+			<button onclick="calculate('-')">-</button>
+			<button onclick="calculate(1)">1</button>
+			<button onclick="calculate(2)">2</button>
+			<button onclick="calculate(3)">3</button>
+			<button onclick="calculate('+')">+</button>
+			<button onclick="calculate('.')">.</button>
+			<button onclick="calculate(0)">0</button>
+			<button class="equal" onclick="Result()">=</button>
 		</div>
 	</div>
+	<footer class="footer">
+		<p> DEVELOPED BY AGUSTIN BUSTAMANTE | COPYRIGHT 2022 &copy;</p>
+		<a href="https://github.com/agusbusta"><i class="fa-brands fa-github"></i></a>
+		<a href=""> <i class="fa-brands fa-linkedin-in"></i></a>
+	</footer>
+	<script src="calculator.js"></script>
 </body>
 </html>
